@@ -3,7 +3,7 @@ function Muose(name){
 	this.dead = false;
 }
 
-this.prototype.die = function()
+Mouse.prototype.die = function()
 {
 	this.dead = true;
 }
