@@ -7,3 +7,8 @@ Dog.prototype.eat = function(cat)
 {
 	this.stomach.push(cat);
 };
+
+Dog.prototype.sayHi = funtion()
+{
+	console.log("Hi! My name is " + this.name);
+}
